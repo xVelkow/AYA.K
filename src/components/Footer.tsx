@@ -2,7 +2,7 @@ import Image from 'next/image';
 export default function Footer(){
     return <footer className="relative flex justify-center items-center">
         <Image
-            src="/footer/socials.jpg" alt=""
+            src="/footer/socials.jpg" alt="" width={500} height={500}
             className="w-full h-96 object-cover"
         />
         <div className="absolute inset-0 bg-neutral-700 opacity-70"></div>

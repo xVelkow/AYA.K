@@ -5,7 +5,7 @@ export default function Services(){
         <div className="flex flex-col xl:flex-row justify-center items-center xl:items-stretch gap-10 md:gap-20">
             <div className="w-3/4 md:w-2/3 xl:w-1/4 space-y-2 flex flex-col justify-start items-start bg-primary-600 py-4 px-4 rounded-xl">
                 <Image
-                    src="/homepage/fitness.jpg" alt=""
+                    src="/homepage/fitness.jpg" alt="" width={500} height={500}
                     className="service-img"
                 />
                 <h3 className="text-white">Fitness</h3>
@@ -17,7 +17,7 @@ export default function Services(){
             </div>
             <div className="w-3/4 md:w-2/3 xl:w-1/4 space-y-2 flex flex-col justify-start items-start bg-primary-600 py-4 px-4 rounded-xl">
                 <Image
-                    src="/homepage/nutrition.jpg" alt=""
+                    src="/homepage/nutrition.jpg" alt="" width={500} height={500}
                     className="service-img"
                 />
                 <h3 className="text-white">Nutrition</h3>
@@ -30,7 +30,7 @@ export default function Services(){
             </div>
             <div className="w-3/4 md:w-2/3 xl:w-1/4 space-y-2 flex flex-col justify-start items-start bg-primary-600 py-4 px-4 rounded-xl">
                 <Image
-                    src="/homepage/fitness-nutrition.jpg" alt=""
+                    src="/homepage/fitness-nutrition.jpg" alt="" width={500} height={500}
                     className="service-img"
                 />
                 <h3 className="text-white">Fitness & Nutrition</h3>
