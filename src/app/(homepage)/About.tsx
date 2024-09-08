@@ -1,7 +1,8 @@
+import Image from 'next/image';
 export default function About() {
     return <section className="min-h-screen w-full bg-primary-500 flex flex-col xl:flex-row gap-10 md:gap-20 justify-center items-center py-20 md:py-0">
         <div className=" relative w-80 md:w-96 aspect-square">
-            <img
+            <Image
                 src="/homepage/about.jpg" alt=""
                 className="absolute z-10 w-full h-full object-cover"
             />

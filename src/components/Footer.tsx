@@ -1,6 +1,7 @@
+import Image from 'next/image';
 export default function Footer(){
     return <footer className="relative flex justify-center items-center">
-        <img
+        <Image
             src="/footer/socials.jpg" alt=""
             className="w-full h-96 object-cover"
         />
