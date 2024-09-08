@@ -1,3 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    h1{
+        @apply text-6xl md:text-7xl font-bold text-center;
+    }
+    h2{
+        @apply text-4xl font-bold;
+    }
+    h3{
+        @apply text-2xl font-bold;
+    }
+    h4{
+        @apply text-xl;
+    }
+    button{
+        @apply text-white bg-primary-600 px-6 py-3 md:px-4 md:py-2 rounded-full;
+    }
+}
+@layer components{
+    .baskerville{
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+    }
+    .service-img{
+        @apply w-72 md:w-full h-48 object-cover rounded-md;
+    }
+    .shady-bg{
+        background: radial-gradient(
+	  		circle at 50% 0%,
+	  		rgba(34, 211, 238, 0.05) 0%,
+	  		transparent 60%
+		), rgba(15, 15, 15, 1);
+    }
+}
+
+@layer utilities{
+}
