@@ -1,6 +1,7 @@
 import Image from "next/image";
 export default function Services(){
     return <section className="bg-white flex flex-col justify-center items-center py-10 gap-10">
+        <h1 className="text-primary-600 mx-4">YOU GOT THIS!</h1>
         <h2 className="text-neutral-900 text-center">Start Your Fitness Journey</h2>
         <div className="flex flex-col xl:flex-row justify-center items-center xl:items-stretch gap-10 md:gap-20">
             <div className="w-3/4 md:w-2/3 xl:w-1/4 space-y-2 flex flex-col justify-start items-start bg-primary-600 py-4 px-4 rounded-xl">

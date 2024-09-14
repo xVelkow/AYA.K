@@ -7,7 +7,7 @@ export default function Footer(){
         />
         <div className="absolute inset-0 bg-neutral-700 opacity-70"></div>
         <div className="absolute inset-0 z-10 flex flex-col justify-center items-center text-white gap-6">
-            <h1 className="w-5/6">FOLLOW US ON SOCIALS</h1>
+            <h1 className="w-5/6">FOLLOW ME ON SOCIALS</h1>
             <h4 className="text-center w-5/6">Gain access to free tips, tricks and advice around your fitness goals!</h4>
             <div className="flex gap-10">
                 <a href="#">

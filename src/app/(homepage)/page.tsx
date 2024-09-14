@@ -8,9 +8,9 @@ export default function Home() {
     return (
         <main>
             <Hero />
-            <div className="bg-pink-400 text-white py-4 text-center text-lg baskerville">Training & Nutrition</div>
+            <div className="hidden xl:block bg-pink-400 text-white py-4 text-center text-lg baskerville font-bold">FITNESS COACHING FOR WOMEN ✨ PERSONALIZED NUTRITION PLANS ✨ HEALTHY LIFESTYLE GUIDANCE</div>
             <About />
-            <div className="bg-pink-400 text-white py-4 text-center text-lg baskerville">I did it, so YOU CAN DO IT</div>
+            {/* <div className="bg-pink-400 text-white py-4 text-center text-lg baskerville">YOU GOT THIS</div> */}
             <Services />
             <Newsletter />
             <Footer />
