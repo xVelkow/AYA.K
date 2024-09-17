@@ -4,9 +4,9 @@ export default function About() {
         <div className="relative w-3/4 md:w-96 xl:w-80 aspect-square">
             <Image
                 src="/homepage/about.jpg" alt="" width={500} height={500}
-                className="absolute z-10 w-full md:w-96 xl:w-72 aspect-square object-cover"
+                className="absolute z-10 w-full md:w-96 xl:w-72 aspect-square object-cover rounded-3xl"
             />
-            <div className="hidden xl:block absolute content-[''] inset-0 w-3/4 xl:w-72 aspect-square bg-primary-100 -translate-x-10 translate-y-10"></div>
+            <div className="hidden xl:block absolute content-[''] inset-0 w-3/4 xl:w-72 aspect-square bg-primary-100 -translate-x-10 translate-y-10 rounded-3xl"></div>
         </div>
         <div className="w-4/5 md:w-96 xl:w-1/3 space-y-4 flex flex-col justify-center items-center xl:items-start">
             <h2 className='mx-2'>A BIT ABOUT MY STORY</h2>
