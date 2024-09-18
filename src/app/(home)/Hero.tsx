@@ -1,5 +1,5 @@
 export default function Hero() {
-    return <section className="relative h-[calc(100vh-10rem)] xl:h-[calc(100vh-6rem)]">
+    return <section className="relative h-[calc(100vh-12rem)] xl:h-[calc(100vh-10rem)]">
         <video
             autoPlay
             muted

@@ -3,6 +3,7 @@ import { League_Spartan, Baskervville } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Newsletter from "@/components/Newsletter";
+import Navbar from "@/components/Navbar";
 
 const baskervville = Baskervville({ subsets: ["latin"], weight: "400", style: "italic" });
 const leagueSpartan = League_Spartan({
@@ -23,6 +24,7 @@ export default function RootLayout({
     return (
         <html lang="en">
         <body className={leagueSpartan.className}>
+            <Navbar />
             {children}
             <Newsletter />
             <Footer />
