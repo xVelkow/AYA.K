@@ -38,4 +38,19 @@
 }
 
 @layer utilities{
+    .input-holder{
+        @apply flex flex-col gap-0.5 w-72;
+        label{
+            @apply block text-lg;
+        }
+        span{
+            @apply text-red-500 text-sm;
+        }
+        input,select{
+            @apply block outline-none w-full px-4 py-2 md:py-1.5 border-2 border-pink-400 rounded-md placeholder:font-light;
+        }
+        select{
+            @apply cursor-pointer py-2.5;
+        }
+    }
 }
