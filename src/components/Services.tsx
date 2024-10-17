@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 export default function Services(){
     return <section className="bg-white flex flex-col justify-center items-center py-10 gap-10">
         <h1 className="text-primary-600 mx-4">YOU GOT THIS!</h1>
@@ -44,5 +45,6 @@ export default function Services(){
                 </div>
             </div>
         </div>
+        <Link href="/contact" className="rounded-full"><button className="text-xl py-3 px-9 uppercase">Book a Strategy Call NOW!</button></Link>
     </section>
 }
