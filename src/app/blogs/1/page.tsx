@@ -26,10 +26,10 @@ export default function Page() {
                 <Paragraph><strong>- Pain Alleviation:</strong> Strength training can ease aches and promote overall comfort.</Paragraph>
                 <Paragraph><strong>- Blood Pressure Control:</strong> Exercise strengthens the heart and enhances circulation, crucial for managing blood pressure.</Paragraph>
             </ParagraphGroup>
-            <Paragraph>These insights highlight a simple truth: exercise is fundamental for women's health.</Paragraph>
-            <Paragraph>I encourage you to honor and care for your body, treating it with the same dedication you give other aspects of your life. Exercise isn't just self-care; it's an essential component of a balanced lifestyle.</Paragraph>
+            <Paragraph>These insights highlight a simple truth: exercise is fundamental for women&#8221;s health.</Paragraph>
+            <Paragraph>I encourage you to honor and care for your body, treating it with the same dedication you give other aspects of your life. Exercise isn&#8217;t just self-care; it&#8217;s an essential component of a balanced lifestyle.</Paragraph>
             <SubTitle>&#8220;I really don&#8217;t have time to workout.&#8221;</SubTitle>
-            <Paragraph>I understand finding time for exercise can seem daunting. However, prioritizing your well-being amidst life's demands is crucial. Whether it's an hour daily or just 15 minutes every other day, making a commitment to yourself is vital. Research indicates that scheduling and forming healthy habits can reduce stress and enhance mental well-being. By prioritizing exercise in your schedule, you increase the likelihood of reaping its benefits.</Paragraph>
+            <Paragraph>I understand finding time for exercise can seem daunting. However, prioritizing your well-being amidst life&#8217;s demands is crucial. Whether it&#8217;s an hour daily or just 15 minutes every other day, making a commitment to yourself is vital. Research indicates that scheduling and forming healthy habits can reduce stress and enhance mental well-being. By prioritizing exercise in your schedule, you increase the likelihood of reaping its benefits.</Paragraph>
             <SubTitle>&#8220;But, I don&#8217;t know where to start?&#8221;</SubTitle>
             <Paragraph>Here is where I come in. As a certified personal trainer and Nutrition specialist, I offer online coaching programs that integrate both physical training and nutrition.</Paragraph>
             <Paragraph><strong>My goal is to help you achieve your goals quickly and healthily.</strong></Paragraph>
