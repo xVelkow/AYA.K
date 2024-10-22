@@ -21,7 +21,7 @@ export default function Navbar(){
             <div className="text-2xl font-bold"><Link href="/">AYA.K</Link></div>
             <ul className="flex justify-center items-center gap-10">
                 <li><Link href="calculate-your-calories">Count Your Calories</Link></li>
-                <li><Link href="">Blog</Link></li>
+                <li><Link href="/blogs">Blog</Link></li>
             </ul>
         </nav>
         <nav className="xl:hidden">
@@ -41,7 +41,7 @@ export default function Navbar(){
                     onClick={ () => setIsMenuOpen(false) }
                 ><Link href="/">AYA.K</Link></li>
                 <li onClick={ () => setIsMenuOpen(false) }><Link href="/calculate-your-calories">Count Your Calories</Link></li>
-                <li onClick={ () => setIsMenuOpen(false) }>Blog</li>
+                <li onClick={ () => setIsMenuOpen(false) }><Link href="/blogs">Blog</Link></li>
             </ul>
         </nav>
     </header>

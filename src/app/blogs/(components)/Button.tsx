@@ -7,7 +7,7 @@ export default function Button({
     href: string;
 }>) {
     return <div className="w-full flex justify-center items-center">
-        <Link href={href} className="bg-primary-600 text-white w-fit text-xl py-3 px-9 rounded-md uppercase">
+        <Link href={href} className="bg-primary-600 text-white w-fit text-center text-xl py-3 px-9 rounded-md uppercase">
             {children}
         </Link>
     </div>
